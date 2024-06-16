@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/todo-db
+    username: postgres
+    password: jagiya<3
+    name: todo
+    pool:
+      enabled: true
+  sql:
+    init:
+      mode: always
